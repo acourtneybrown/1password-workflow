@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.alfredapp.vitor.1password</string>
+	<string>com.notcharlie.1password-vault</string>
+	<key>category</key>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>06513BCB-0261-45C2-BE12-AEC0021E9E8E</key>
@@ -843,7 +845,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Vítor Galvão</string>
+	<string>Adam Brown</string>
 	<key>description</key>
 	<string>Search and open 1Password items</string>
 	<key>disabled</key>
@@ -2120,9 +2122,11 @@ echo "${new_items_hash}" &gt; "${items_hash_file}"</string>
 				<key>focusedappvariablename</key>
 				<string></string>
 				<key>hotkey</key>
-				<integer>0</integer>
+				<integer>42</integer>
 				<key>hotmod</key>
-				<integer>0</integer>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>\</string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -3347,9 +3351,11 @@ To report a problem, run `!1pdiagnostic`.</string>
 			<string>auto_refresh</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>2025.4</string>
+	<string>2025.4.1</string>
 	<key>webaddress</key>
-	<string>https://github.com/alfredapp/1password-workflow/</string>
+	<string>https://github.com/acourtneybrown/1password-workflow</string>
 </dict>
 </plist>
