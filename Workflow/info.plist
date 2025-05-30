@@ -1266,7 +1266,7 @@ echo '{
 				<key>subtext</key>
 				<string>Uncommon but useful actions</string>
 				<key>title</key>
-				<string>1Password Extras</string>
+				<string>{const:alfred_workflow_name} Extras</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1674,9 +1674,9 @@ echo '{
 				<key>skipuniversalaction</key>
 				<true/>
 				<key>subtext</key>
-				<string>Show your 1Password items</string>
+				<string>Show your {const:alfred_workflow_name} items</string>
 				<key>title</key>
-				<string>1Password</string>
+				<string>{const:alfred_workflow_name}</string>
 				<key>type</key>
 				<integer>11</integer>
 				<key>withspace</key>
@@ -2140,7 +2140,7 @@ echo "${new_items_hash}" &gt; "${items_hash_file}"</string>
 			<key>config</key>
 			<dict>
 				<key>text</key>
-				<string>Search 1Password for '{query}'</string>
+				<string>Search {const:alfred_workflow_name} for '{query}'</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.fallback</string>
