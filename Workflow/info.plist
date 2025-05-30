@@ -1258,7 +1258,7 @@ echo '{
 				<key>items</key>
 				<string>[{"title":"Manage Vaults","arg":"manage_vaults","subtitle":"Include or exclude vaults from results"},{"title":"Manage Accounts","arg":"manage_accounts","subtitle":"Include or exclude accounts from results"},{"title":"Force Update Items","arg":"update_items","subtitle":"Rebuild Workflow data"},{"title":"Reset Workflow","arg":"reset_workflow","subtitle":"Delete Workflow data"}]</string>
 				<key>keyword</key>
-				<string>:1pextras</string>
+				<string>:{var:items_search_keyword}extras</string>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>runningsubtext</key>
@@ -2239,7 +2239,7 @@ echo "${new_items_hash}" &gt; "${items_hash_file}"</string>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>!1pdiagnostic</string>
+				<string>!{var:items_search_keyword}diagnostic</string>
 				<key>skipuniversalaction</key>
 				<true/>
 				<key>subtext</key>
