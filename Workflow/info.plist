@@ -1973,10 +1973,21 @@ echo '{
 
   const url = $.NSProcessInfo.processInfo.environment.objectForKey("url").js
   if (url === undefined) throw "Item does not have a configured website URL"
-  const urlObject = $.NSURL.URLWithString(url)
 
-  if (urlObject.query.js === undefined) return url + "?" + query 
-  return url + "&amp;" + query
+  const urlObject = $.NSURL.URLWithString(url);
+  const components = $.NSURLComponents.componentsWithURLResolvingAgainstBaseURL(urlObject, false);
+
+  // Check for existing query parameters
+  const existingItems = components.queryItems.js ? components.queryItems.js.slice() : [];
+
+  // Add new query items
+  existingItems.push(
+    $.NSURLQueryItem.queryItemWithNameValue(itemID, itemID),
+    $.NSURLQueryItem.queryItemWithNameValue("op_vault", vaultName)
+  );
+
+  components.setQueryItems($(existingItems));
+  return components.URL.absoluteString.js;
 }</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
