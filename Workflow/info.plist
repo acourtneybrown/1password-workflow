@@ -1967,7 +1967,6 @@ echo '{
 				<string>function run() {
   const itemID = $.NSProcessInfo.processInfo.environment.objectForKey("itemID").js
   const vaultName = $.NSProcessInfo.processInfo.environment.objectForKey("vaultName").js
-  const query = itemID + "=" + itemID + "&amp;op_vault=" + vaultName
 
   const url = $.NSProcessInfo.processInfo.environment.objectForKey("url").js
   if (url === undefined) throw "Item does not have a configured website URL"
