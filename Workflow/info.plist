@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.notcharlie.1password-vault</string>
-	<key>category</key>
-	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>06513BCB-0261-45C2-BE12-AEC0021E9E8E</key>
