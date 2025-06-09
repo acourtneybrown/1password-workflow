@@ -1,6 +1,9 @@
 # <img src='Workflow/icon.png' width='45' align='center' alt='icon'> 1Password Alfred Workflow
 
-Search and open 1Password items
+Search and open 1Password items.
+
+**This fork differs from the official Alfred 1Password workflow by including the vault name
+for each item as a query parameter (`op_vault=...`) in the generated URL opened by the browser**
 
 [⤓ Install on the Alfred Gallery](https://alfred.app/workflows/alfredapp/1password)
 

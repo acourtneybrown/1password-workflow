@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>com.alfredapp.vitor.1password</string>
+	<string>com.notcharlie.1password-vault</string>
 	<key>connections</key>
 	<dict>
 		<key>06513BCB-0261-45C2-BE12-AEC0021E9E8E</key>
@@ -843,7 +843,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Vítor Galvão</string>
+	<string>Adam Brown</string>
 	<key>description</key>
 	<string>Search and open 1Password items</string>
 	<key>disabled</key>
@@ -1258,7 +1258,7 @@ echo '{
 				<key>items</key>
 				<string>[{"title":"Manage Vaults","arg":"manage_vaults","subtitle":"Include or exclude vaults from results"},{"title":"Manage Accounts","arg":"manage_accounts","subtitle":"Include or exclude accounts from results"},{"title":"Force Update Items","arg":"update_items","subtitle":"Rebuild Workflow data"},{"title":"Reset Workflow","arg":"reset_workflow","subtitle":"Delete Workflow data"}]</string>
 				<key>keyword</key>
-				<string>:1pextras</string>
+				<string>:{var:items_search_keyword}extras</string>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>runningsubtext</key>
@@ -1266,7 +1266,7 @@ echo '{
 				<key>subtext</key>
 				<string>Uncommon but useful actions</string>
 				<key>title</key>
-				<string>1Password Extras</string>
+				<string>{const:alfred_workflow_name} Extras</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -1674,9 +1674,9 @@ echo '{
 				<key>skipuniversalaction</key>
 				<true/>
 				<key>subtext</key>
-				<string>Show your 1Password items</string>
+				<string>Show your {const:alfred_workflow_name} items</string>
 				<key>title</key>
-				<string>1Password</string>
+				<string>{const:alfred_workflow_name}</string>
 				<key>type</key>
 				<integer>11</integer>
 				<key>withspace</key>
@@ -1966,14 +1966,25 @@ echo '{
 				<key>script</key>
 				<string>function run() {
   const itemID = $.NSProcessInfo.processInfo.environment.objectForKey("itemID").js
-  const query = itemID + "=" + itemID
+  const vaultName = $.NSProcessInfo.processInfo.environment.objectForKey("vaultName").js
 
   const url = $.NSProcessInfo.processInfo.environment.objectForKey("url").js
   if (url === undefined) throw "Item does not have a configured website URL"
-  const urlObject = $.NSURL.URLWithString(url)
 
-  if (urlObject.query.js === undefined) return url + "?" + query 
-  return url + "&amp;" + query
+  const urlObject = $.NSURL.URLWithString(url);
+  const components = $.NSURLComponents.componentsWithURLResolvingAgainstBaseURL(urlObject, false);
+
+  // Check for existing query parameters
+  const existingItems = components.queryItems.js ? components.queryItems.js.slice() : [];
+
+  // Add new query items
+  existingItems.push(
+    $.NSURLQueryItem.queryItemWithNameValue(itemID, itemID),
+    $.NSURLQueryItem.queryItemWithNameValue("op_vault", vaultName)
+  );
+
+  components.setQueryItems($(existingItems));
+  return components.URL.absoluteString.js;
 }</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -2140,7 +2151,7 @@ echo "${new_items_hash}" &gt; "${items_hash_file}"</string>
 			<key>config</key>
 			<dict>
 				<key>text</key>
-				<string>Search 1Password for '{query}'</string>
+				<string>Search {const:alfred_workflow_name} for '{query}'</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.fallback</string>
@@ -2239,7 +2250,7 @@ echo "${new_items_hash}" &gt; "${items_hash_file}"</string>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>!1pdiagnostic</string>
+				<string>!{var:items_search_keyword}diagnostic</string>
 				<key>skipuniversalaction</key>
 				<true/>
 				<key>subtext</key>
@@ -3349,6 +3360,6 @@ To report a problem, run `!1pdiagnostic`.</string>
 	<key>version</key>
 	<string>2025.4</string>
 	<key>webaddress</key>
-	<string>https://github.com/alfredapp/1password-workflow/</string>
+	<string>https://github.com/acourtneybrown/1password-workflow</string>
 </dict>
 </plist>

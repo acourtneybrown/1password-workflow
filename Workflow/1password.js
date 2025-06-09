@@ -147,6 +147,7 @@ function getItems(userID, excludedVaults) {
       const itemVars = {
         accountID: account["account_uuid"],
         vaultID: vaultID,
+        vaultName: vaultName,
         itemID: item["id"],
       }
 
@@ -170,6 +171,7 @@ function getItems(userID, excludedVaults) {
       const itemVars = {
         accountID: account["account_uuid"],
         vaultID: vaultID,
+        vaultName: vaultName,
         itemID: item["id"],
         url: url
       }
