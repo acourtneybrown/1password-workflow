@@ -1967,24 +1967,18 @@ echo '{
 				<string>function run() {
   const itemID = $.NSProcessInfo.processInfo.environment.objectForKey("itemID").js
   const vaultName = $.NSProcessInfo.processInfo.environment.objectForKey("vaultName").js
-
   const url = $.NSProcessInfo.processInfo.environment.objectForKey("url").js
+
   if (url === undefined) throw "Item does not have a configured website URL"
 
-  const urlObject = $.NSURL.URLWithString(url);
-  const components = $.NSURLComponents.componentsWithURLResolvingAgainstBaseURL(urlObject, false);
+  const urlObject = $.NSURL.URLWithString(url)
+  const components = $.NSURLComponents.componentsWithURLResolvingAgainstBaseURL(urlObject, false)
+  const itemQuery = $.NSURLQueryItem.queryItemWithNameValue(itemID, itemID)
+  const vaultNameQuery = $.NSURLQueryItem.queryItemWithNameValue("op_vault", vaultName)
+  const queryItems = components.queryItems.js?.concat([itemQuery, vaultNameQuery]) || [itemQuery, vaultNameQuery]
 
-  // Check for existing query parameters
-  const existingItems = components.queryItems.js ? components.queryItems.js.slice() : [];
-
-  // Add new query items
-  existingItems.push(
-    $.NSURLQueryItem.queryItemWithNameValue(itemID, itemID),
-    $.NSURLQueryItem.queryItemWithNameValue("op_vault", vaultName)
-  );
-
-  components.setQueryItems($(existingItems));
-  return components.URL.absoluteString.js;
+  components.setQueryItems($(queryItems))
+  return components.URL.absoluteString.js
 }</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -3358,7 +3352,7 @@ To report a problem, run `!1pdiagnostic`.</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2025.4.1</string>
+	<string>2025.5</string>
 	<key>webaddress</key>
 	<string>https://github.com/acourtneybrown/1password-workflow</string>
 </dict>
