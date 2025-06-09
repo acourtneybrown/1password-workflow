@@ -3357,8 +3357,6 @@ To report a problem, run `!1pdiagnostic`.</string>
 			<string>auto_refresh</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
 	<string>2025.4.1</string>
 	<key>webaddress</key>
