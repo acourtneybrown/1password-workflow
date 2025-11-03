@@ -32,6 +32,21 @@
 				<false/>
 			</dict>
 		</array>
+		<key>1EFA6035-648E-4649-A265-68BED0F6F77B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5EF438AF-B615-4273-9C73-9AF8B0B833D9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>1C197363-62E6-4CC6-977C-749CECEB56F1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>2032CDC0-7BD4-4671-8A03-2BEB9F84B3D3</key>
 		<array>
 			<dict>
@@ -51,7 +66,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>44322D7B-6B6D-47D8-B383-A1D114D6601C</string>
+				<string>74E9AF99-7646-442A-8362-CA6F6408CAB4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -306,6 +321,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>5EF438AF-B615-4273-9C73-9AF8B0B833D9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>63D09010-4E5E-4A72-B1B6-48CBED63ABBD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>5F00C180-A092-46F1-96FB-DD891562A2A8</key>
 		<array>
 			<dict>
@@ -340,6 +368,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>63D09010-4E5E-4A72-B1B6-48CBED63ABBD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F2CCF87D-89E4-401A-9CA2-75BA44EBFC14</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>1C197363-62E6-4CC6-977C-749CECEB56F1</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -411,6 +454,29 @@
 				<false/>
 			</dict>
 		</array>
+		<key>74E9AF99-7646-442A-8362-CA6F6408CAB4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1EFA6035-648E-4649-A265-68BED0F6F77B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>44322D7B-6B6D-47D8-B383-A1D114D6601C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>7AF55FB7-58E3-49FB-B771-94EC70BF73CC</key>
 		<array>
 			<dict>
@@ -428,7 +494,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>44322D7B-6B6D-47D8-B383-A1D114D6601C</string>
+				<string>74E9AF99-7646-442A-8362-CA6F6408CAB4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -476,6 +542,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>97090C7E-0127-4909-A2CA-D78C9DC0355F</key>
+		<array/>
 		<key>985CB791-EA4E-4B3E-A04E-37A481C33035</key>
 		<array>
 			<dict>
@@ -612,7 +680,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>44322D7B-6B6D-47D8-B383-A1D114D6601C</string>
+				<string>74E9AF99-7646-442A-8362-CA6F6408CAB4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -2180,6 +2248,114 @@ echo "${new_items_hash}" &gt; "${items_hash_file}"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>tasksettings</key>
+				<dict/>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/macOS/clipboard.clear</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>F2CCF87D-89E4-401A-9CA2-75BA44EBFC14</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<true/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>function clipboard_hash {
+  /usr/bin/pbpaste | /usr/bin/shasum
+}
+
+readonly itinial_hash="$(clipboard_hash)"
+sleep "${copy_cleanup_seconds}"
+[[ "${itinial_hash}" == "$(clipboard_hash)" ]] &amp;&amp; printf 'true'</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>5EF438AF-B615-4273-9C73-9AF8B0B833D9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<true/>
+						<key>matchmode</key>
+						<integer>5</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Clear</string>
+						<key>uid</key>
+						<string>1C197363-62E6-4CC6-977C-749CECEB56F1</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>63D09010-4E5E-4A72-B1B6-48CBED63ABBD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:copy_cleanup_seconds}</string>
+						<key>matchcasesensitive</key>
+						<true/>
+						<key>matchmode</key>
+						<integer>2</integer>
+						<key>matchstring</key>
+						<string>0</string>
+						<key>outputlabel</key>
+						<string>Clear</string>
+						<key>uid</key>
+						<string>1C197363-62E6-4CC6-977C-749CECEB56F1</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>1EFA6035-648E-4649-A265-68BED0F6F77B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -2218,27 +2394,6 @@ echo "${new_items_hash}" &gt; "${items_hash_file}"</string>
 			<string>66052526-8BC3-4DC3-B7B7-D2C2EF591CB7</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Copied to Clipboard</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>97090C7E-0127-4909-A2CA-D78C9DC0355F</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2458,6 +2613,27 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Copied to Clipboard</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>97090C7E-0127-4909-A2CA-D78C9DC0355F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>availableviaurlhandler</key>
 				<true/>
 				<key>triggerid</key>
@@ -2467,6 +2643,14 @@ fi</string>
 			<string>alfred.workflow.trigger.external</string>
 			<key>uid</key>
 			<string>070215AC-79E9-494E-8B68-94CD5C80FBE5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>74E9AF99-7646-442A-8362-CA6F6408CAB4</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2636,9 +2820,16 @@ To report a problem, run `!1pdiagnostic`.</string>
 		<key>1D21086A-0AED-4EA6-BD28-E6971528277C</key>
 		<dict>
 			<key>xpos</key>
-			<real>2210</real>
+			<real>2325</real>
 			<key>ypos</key>
 			<real>1310</real>
+		</dict>
+		<key>1EFA6035-648E-4649-A265-68BED0F6F77B</key>
+		<dict>
+			<key>xpos</key>
+			<real>2225</real>
+			<key>ypos</key>
+			<real>1055</real>
 		</dict>
 		<key>2032CDC0-7BD4-4671-8A03-2BEB9F84B3D3</key>
 		<dict>
@@ -2717,7 +2908,7 @@ To report a problem, run `!1pdiagnostic`.</string>
 		<key>44322D7B-6B6D-47D8-B383-A1D114D6601C</key>
 		<dict>
 			<key>xpos</key>
-			<real>2100</real>
+			<real>2215</real>
 			<key>ypos</key>
 			<real>1215</real>
 		</dict>
@@ -2763,6 +2954,15 @@ To report a problem, run `!1pdiagnostic`.</string>
 			<key>ypos</key>
 			<real>440</real>
 		</dict>
+		<key>5EF438AF-B615-4273-9C73-9AF8B0B833D9</key>
+		<dict>
+			<key>note</key>
+			<string>Wait to clear clipboard if unchanged</string>
+			<key>xpos</key>
+			<real>2325</real>
+			<key>ypos</key>
+			<real>1025</real>
+		</dict>
 		<key>5F00C180-A092-46F1-96FB-DD891562A2A8</key>
 		<dict>
 			<key>xpos</key>
@@ -2776,6 +2976,13 @@ To report a problem, run `!1pdiagnostic`.</string>
 			<real>60</real>
 			<key>ypos</key>
 			<real>545</real>
+		</dict>
+		<key>63D09010-4E5E-4A72-B1B6-48CBED63ABBD</key>
+		<dict>
+			<key>xpos</key>
+			<real>2485</real>
+			<key>ypos</key>
+			<real>1055</real>
 		</dict>
 		<key>66052526-8BC3-4DC3-B7B7-D2C2EF591CB7</key>
 		<dict>
@@ -2819,6 +3026,13 @@ To report a problem, run `!1pdiagnostic`.</string>
 			<key>ypos</key>
 			<real>520</real>
 		</dict>
+		<key>74E9AF99-7646-442A-8362-CA6F6408CAB4</key>
+		<dict>
+			<key>xpos</key>
+			<real>2115</real>
+			<key>ypos</key>
+			<real>1215</real>
+		</dict>
 		<key>7AF55FB7-58E3-49FB-B771-94EC70BF73CC</key>
 		<dict>
 			<key>xpos</key>
@@ -2859,9 +3073,9 @@ To report a problem, run `!1pdiagnostic`.</string>
 		<key>97090C7E-0127-4909-A2CA-D78C9DC0355F</key>
 		<dict>
 			<key>xpos</key>
-			<real>2210</real>
+			<real>2325</real>
 			<key>ypos</key>
-			<real>1060</real>
+			<real>1185</real>
 		</dict>
 		<key>985CB791-EA4E-4B3E-A04E-37A481C33035</key>
 		<dict>
@@ -3035,6 +3249,13 @@ To report a problem, run `!1pdiagnostic`.</string>
 			<real>1425</real>
 			<key>ypos</key>
 			<real>460</real>
+		</dict>
+		<key>F2CCF87D-89E4-401A-9CA2-75BA44EBFC14</key>
+		<dict>
+			<key>xpos</key>
+			<real>2570</real>
+			<key>ypos</key>
+			<real>1025</real>
 		</dict>
 		<key>F98E7ED2-C99B-4242-A40F-8F2EFA9FE6B8</key>
 		<dict>
@@ -3275,6 +3496,32 @@ To report a problem, run `!1pdiagnostic`.</string>
 			<string>checkbox</string>
 			<key>variable</key>
 			<string>logins_only</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>defaultvalue</key>
+				<integer>30</integer>
+				<key>markercount</key>
+				<integer>5</integer>
+				<key>maxvalue</key>
+				<integer>120</integer>
+				<key>minvalue</key>
+				<integer>0</integer>
+				<key>onlystoponmarkers</key>
+				<true/>
+				<key>showmarkers</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Number of seconds to wait before erasing copied value.
+"0" to disable.</string>
+			<key>label</key>
+			<string>Clipboard Cleanup</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>variable</key>
+			<string>copy_cleanup_seconds</string>
 		</dict>
 		<dict>
 			<key>config</key>
