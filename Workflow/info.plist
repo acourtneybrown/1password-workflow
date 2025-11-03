@@ -2790,477 +2790,477 @@ To report a problem, run `!1pdiagnostic`.</string>
 		<key>05ACE926-EBA9-4EA1-856D-F95AE9437802</key>
 		<dict>
 			<key>xpos</key>
-			<real>3130</real>
+			<real>3130.0</real>
 			<key>ypos</key>
-			<real>780</real>
+			<real>780.0</real>
 		</dict>
 		<key>06513BCB-0261-45C2-BE12-AEC0021E9E8E</key>
 		<dict>
 			<key>xpos</key>
-			<real>865</real>
+			<real>865.0</real>
 			<key>ypos</key>
-			<real>1060</real>
+			<real>1060.0</real>
 		</dict>
 		<key>070215AC-79E9-494E-8B68-94CD5C80FBE5</key>
 		<dict>
 			<key>xpos</key>
-			<real>60</real>
+			<real>60.0</real>
 			<key>ypos</key>
-			<real>1185</real>
+			<real>1185.0</real>
 		</dict>
 		<key>0E210220-60D9-4839-9C97-071BAEB7C0B5</key>
 		<dict>
 			<key>xpos</key>
-			<real>1830</real>
+			<real>1830.0</real>
 			<key>ypos</key>
-			<real>440</real>
+			<real>440.0</real>
 		</dict>
 		<key>1D21086A-0AED-4EA6-BD28-E6971528277C</key>
 		<dict>
 			<key>xpos</key>
-			<real>2310</real>
+			<real>2310.0</real>
 			<key>ypos</key>
-			<real>1385</real>
+			<real>1385.0</real>
 		</dict>
 		<key>2032CDC0-7BD4-4671-8A03-2BEB9F84B3D3</key>
 		<dict>
 			<key>xpos</key>
-			<real>2395</real>
+			<real>2395.0</real>
 			<key>ypos</key>
-			<real>505</real>
+			<real>505.0</real>
 		</dict>
 		<key>2166D3DB-EF96-4C03-B95A-77D5068615D7</key>
 		<dict>
 			<key>note</key>
 			<string>Open and fill in web browser</string>
 			<key>xpos</key>
-			<real>2210</real>
+			<real>2210.0</real>
 			<key>ypos</key>
-			<real>775</real>
+			<real>775.0</real>
 		</dict>
 		<key>27280DF5-78D3-4386-9EC9-E2E8CA15F869</key>
 		<dict>
 			<key>xpos</key>
-			<real>2020</real>
+			<real>2020.0</real>
 			<key>ypos</key>
-			<real>1090</real>
+			<real>1090.0</real>
 		</dict>
 		<key>2BBDFBE4-FBBC-4506-9269-3CFB4017932C</key>
 		<dict>
 			<key>xpos</key>
-			<real>865</real>
+			<real>865.0</real>
 			<key>ypos</key>
-			<real>500</real>
+			<real>500.0</real>
 		</dict>
 		<key>2C4443B4-B3E5-4C06-8444-48F2E3E040F8</key>
 		<dict>
 			<key>xpos</key>
-			<real>3130</real>
+			<real>3130.0</real>
 			<key>ypos</key>
-			<real>610</real>
+			<real>610.0</real>
 		</dict>
 		<key>2D9E5CE1-5C0C-40B1-A0CD-91753D9F27FB</key>
 		<dict>
 			<key>xpos</key>
-			<real>2795</real>
+			<real>2795.0</real>
 			<key>ypos</key>
-			<real>630</real>
+			<real>630.0</real>
 		</dict>
 		<key>307581EE-EB83-4CF4-BC49-E738E98841A5</key>
 		<dict>
 			<key>xpos</key>
-			<real>865</real>
+			<real>865.0</real>
 			<key>ypos</key>
-			<real>1120</real>
+			<real>1120.0</real>
 		</dict>
 		<key>39FC6428-F956-4D05-9D2D-255398F8F5E3</key>
 		<dict>
 			<key>xpos</key>
-			<real>1260</real>
+			<real>1260.0</real>
 			<key>ypos</key>
-			<real>545</real>
+			<real>545.0</real>
 		</dict>
 		<key>3C6D1460-731F-4A4A-8836-8AD03743EE23</key>
 		<dict>
 			<key>note</key>
 			<string>Add parameter to URL for open and fill</string>
 			<key>xpos</key>
-			<real>1830</real>
+			<real>1830.0</real>
 			<key>ypos</key>
-			<real>775</real>
+			<real>775.0</real>
 		</dict>
 		<key>3E0D46FA-9DD4-4D74-BC2E-60666C96DF5A</key>
 		<dict>
 			<key>xpos</key>
-			<real>2120</real>
+			<real>2120.0</real>
 			<key>ypos</key>
-			<real>1215</real>
+			<real>1215.0</real>
 		</dict>
 		<key>3EFD35DD-0984-4561-BB69-91541E75325E</key>
 		<dict>
 			<key>xpos</key>
-			<real>1070</real>
+			<real>1070.0</real>
 			<key>ypos</key>
-			<real>1060</real>
+			<real>1060.0</real>
 		</dict>
 		<key>44322D7B-6B6D-47D8-B383-A1D114D6601C</key>
 		<dict>
 			<key>xpos</key>
-			<real>2220</real>
+			<real>2220.0</real>
 			<key>ypos</key>
-			<real>1340</real>
+			<real>1340.0</real>
 		</dict>
 		<key>4AFED243-84FB-4005-B115-FFD8635E6737</key>
 		<dict>
 			<key>xpos</key>
-			<real>230</real>
+			<real>230.0</real>
 			<key>ypos</key>
-			<real>355</real>
+			<real>355.0</real>
 		</dict>
 		<key>4BCC494E-5F93-4DF4-88C6-04C59B1DB3E2</key>
 		<dict>
 			<key>xpos</key>
-			<real>670</real>
+			<real>670.0</real>
 			<key>ypos</key>
-			<real>1065</real>
+			<real>1065.0</real>
 		</dict>
 		<key>4FEB803E-78D2-4DAA-A493-0C499D3B3415</key>
 		<dict>
 			<key>xpos</key>
-			<real>490</real>
+			<real>490.0</real>
 			<key>ypos</key>
-			<real>55</real>
+			<real>55.0</real>
 		</dict>
 		<key>5526B8BB-14D0-4271-94CE-0C7C2A1DC4E7</key>
 		<dict>
 			<key>xpos</key>
-			<real>60</real>
+			<real>60.0</real>
 			<key>ypos</key>
-			<real>805</real>
+			<real>805.0</real>
 		</dict>
 		<key>5B779377-8A0B-4819-9840-611C663A1004</key>
 		<dict>
 			<key>xpos</key>
-			<real>670</real>
+			<real>670.0</real>
 			<key>ypos</key>
-			<real>330</real>
+			<real>330.0</real>
 		</dict>
 		<key>5D3655AA-08CC-45D8-8B7B-ED639939DF1F</key>
 		<dict>
 			<key>xpos</key>
-			<real>865</real>
+			<real>865.0</real>
 			<key>ypos</key>
-			<real>440</real>
+			<real>440.0</real>
 		</dict>
 		<key>5F00C180-A092-46F1-96FB-DD891562A2A8</key>
 		<dict>
 			<key>xpos</key>
-			<real>670</real>
+			<real>670.0</real>
 			<key>ypos</key>
-			<real>460</real>
+			<real>460.0</real>
 		</dict>
 		<key>608EC08C-E2FB-4A53-B92A-DEAA5E177DAD</key>
 		<dict>
 			<key>xpos</key>
-			<real>60</real>
+			<real>60.0</real>
 			<key>ypos</key>
-			<real>545</real>
+			<real>545.0</real>
 		</dict>
 		<key>66052526-8BC3-4DC3-B7B7-D2C2EF591CB7</key>
 		<dict>
 			<key>xpos</key>
-			<real>490</real>
+			<real>490.0</real>
 			<key>ypos</key>
-			<real>1060</real>
+			<real>1060.0</real>
 		</dict>
 		<key>666D7BDE-787B-44BD-A535-3F76541B7F8C</key>
 		<dict>
 			<key>xpos</key>
-			<real>490</real>
+			<real>490.0</real>
 			<key>ypos</key>
-			<real>310</real>
+			<real>310.0</real>
 		</dict>
 		<key>6D36998C-56B3-4569-B0BB-26BBEFE8DE1C</key>
 		<dict>
 			<key>xpos</key>
-			<real>490</real>
+			<real>490.0</real>
 			<key>ypos</key>
-			<real>180</real>
+			<real>180.0</real>
 		</dict>
 		<key>6DE384FF-FDAF-4607-9281-254FAF291EB7</key>
 		<dict>
 			<key>xpos</key>
-			<real>1830</real>
+			<real>1830.0</real>
 			<key>ypos</key>
-			<real>1185</real>
+			<real>1185.0</real>
 		</dict>
 		<key>7277B529-365D-4D92-B874-22C6E407F47E</key>
 		<dict>
 			<key>xpos</key>
-			<real>1830</real>
+			<real>1830.0</real>
 			<key>ypos</key>
-			<real>935</real>
+			<real>935.0</real>
 		</dict>
 		<key>72EE2185-F8D8-43A9-949D-57337E125256</key>
 		<dict>
 			<key>xpos</key>
-			<real>405</real>
+			<real>405.0</real>
 			<key>ypos</key>
-			<real>520</real>
+			<real>520.0</real>
 		</dict>
 		<key>7AF55FB7-58E3-49FB-B771-94EC70BF73CC</key>
 		<dict>
 			<key>xpos</key>
-			<real>60</real>
+			<real>60.0</real>
 			<key>ypos</key>
-			<real>1060</real>
+			<real>1060.0</real>
 		</dict>
 		<key>7D3F45C0-A7DC-4185-BA64-B3FD62C7CA86</key>
 		<dict>
 			<key>xpos</key>
-			<real>2020</real>
+			<real>2020.0</real>
 			<key>ypos</key>
-			<real>1215</real>
+			<real>1215.0</real>
 		</dict>
 		<key>900A2A3E-D5CB-475C-996A-C6A8207DB171</key>
 		<dict>
 			<key>xpos</key>
-			<real>60</real>
+			<real>60.0</real>
 			<key>ypos</key>
-			<real>55</real>
+			<real>55.0</real>
 		</dict>
 		<key>91D809BB-5106-4221-89E8-F3CB113F026E</key>
 		<dict>
 			<key>xpos</key>
-			<real>1830</real>
+			<real>1830.0</real>
 			<key>ypos</key>
-			<real>1060</real>
+			<real>1060.0</real>
 		</dict>
 		<key>9562EC35-C446-47D7-8269-52EF42A02CC0</key>
 		<dict>
 			<key>note</key>
 			<string>Workflow data and cache folders</string>
 			<key>xpos</key>
-			<real>405</real>
+			<real>405.0</real>
 			<key>ypos</key>
-			<real>210</real>
+			<real>210.0</real>
 		</dict>
 		<key>97090C7E-0127-4909-A2CA-D78C9DC0355F</key>
 		<dict>
 			<key>xpos</key>
-			<real>2310</real>
+			<real>2310.0</real>
 			<key>ypos</key>
-			<real>1235</real>
+			<real>1235.0</real>
 		</dict>
 		<key>985CB791-EA4E-4B3E-A04E-37A481C33035</key>
 		<dict>
 			<key>xpos</key>
-			<real>60</real>
+			<real>60.0</real>
 			<key>ypos</key>
-			<real>365</real>
+			<real>365.0</real>
 		</dict>
 		<key>9E56D02A-13BF-43CF-819E-6836C62FB87B</key>
 		<dict>
 			<key>xpos</key>
-			<real>490</real>
+			<real>490.0</real>
 			<key>ypos</key>
-			<real>440</real>
+			<real>440.0</real>
 		</dict>
 		<key>9FB513DD-70CB-4714-90C0-60C64D8A8784</key>
 		<dict>
 			<key>note</key>
 			<string>Update items</string>
 			<key>xpos</key>
-			<real>2930</real>
+			<real>2930.0</real>
 			<key>ypos</key>
-			<real>780</real>
+			<real>780.0</real>
 		</dict>
 		<key>A62C2C3E-C332-4A12-93D8-C534D7C0EA15</key>
 		<dict>
 			<key>xpos</key>
-			<real>1830</real>
+			<real>1830.0</real>
 			<key>ypos</key>
-			<real>1310</real>
+			<real>1310.0</real>
 		</dict>
 		<key>A8711759-B066-4A18-BB55-8A825C6FC01E</key>
 		<dict>
 			<key>xpos</key>
-			<real>865</real>
+			<real>865.0</real>
 			<key>ypos</key>
-			<real>370</real>
+			<real>370.0</real>
 		</dict>
 		<key>AADC9859-4CF2-43B3-831D-940B6BCBC278</key>
 		<dict>
 			<key>xpos</key>
-			<real>2060</real>
+			<real>2060.0</real>
 			<key>ypos</key>
-			<real>805</real>
+			<real>805.0</real>
 		</dict>
 		<key>AB4202F0-D40C-43BF-B596-C9F1B44B6DB7</key>
 		<dict>
 			<key>xpos</key>
-			<real>60</real>
+			<real>60.0</real>
 			<key>ypos</key>
-			<real>930</real>
+			<real>930.0</real>
 		</dict>
 		<key>ACCDC3AA-BCFF-4406-B851-9DF07B65D2DD</key>
 		<dict>
 			<key>note</key>
 			<string>launchd agent</string>
 			<key>xpos</key>
-			<real>1070</real>
+			<real>1070.0</real>
 			<key>ypos</key>
-			<real>55</real>
+			<real>55.0</real>
 		</dict>
 		<key>B2F40960-56D8-4D9B-B474-148F395AE6EE</key>
 		<dict>
 			<key>xpos</key>
-			<real>2205</real>
+			<real>2205.0</real>
 			<key>ypos</key>
-			<real>525</real>
+			<real>525.0</real>
 		</dict>
 		<key>B974DC8F-2F5C-4E0A-A866-1693C7C525A2</key>
 		<dict>
 			<key>note</key>
 			<string>Check for valid CLI</string>
 			<key>xpos</key>
-			<real>2610</real>
+			<real>2610.0</real>
 			<key>ypos</key>
-			<real>610</real>
+			<real>610.0</real>
 		</dict>
 		<key>BB2058EE-BD2F-4858-9421-D44A3319E9E3</key>
 		<dict>
 			<key>xpos</key>
-			<real>530</real>
+			<real>530.0</real>
 			<key>ypos</key>
-			<real>575</real>
+			<real>575.0</real>
 		</dict>
 		<key>BC4A10A8-2DE4-4DE2-99D6-F884F04B8D84</key>
 		<dict>
 			<key>xpos</key>
-			<real>2555</real>
+			<real>2555.0</real>
 			<key>ypos</key>
-			<real>1060</real>
+			<real>1060.0</real>
 		</dict>
 		<key>BEF1EE27-825A-4AD0-8BC4-9EBFAD6DDA4B</key>
 		<dict>
 			<key>xpos</key>
-			<real>2020</real>
+			<real>2020.0</real>
 			<key>ypos</key>
-			<real>1340</real>
+			<real>1340.0</real>
 		</dict>
 		<key>C6542F9B-7628-484C-8E6B-E87E5291D5BA</key>
 		<dict>
 			<key>xpos</key>
-			<real>225</real>
+			<real>225.0</real>
 			<key>ypos</key>
-			<real>805</real>
+			<real>805.0</real>
 		</dict>
 		<key>CFF178E5-E80D-498F-AE8A-6F701B4A1961</key>
 		<dict>
 			<key>note</key>
 			<string>Diagnose Workflow</string>
 			<key>xpos</key>
-			<real>230</real>
+			<real>230.0</real>
 			<key>ypos</key>
-			<real>1060</real>
+			<real>1060.0</real>
 		</dict>
 		<key>D631D0FB-3B6B-497A-AB5C-B80971C006E0</key>
 		<dict>
 			<key>note</key>
 			<string>Check for CLI App Unlock</string>
 			<key>xpos</key>
-			<real>1830</real>
+			<real>1830.0</real>
 			<key>ypos</key>
-			<real>610</real>
+			<real>610.0</real>
 		</dict>
 		<key>D775FDBF-FDA2-4FDE-9007-02111D660392</key>
 		<dict>
 			<key>xpos</key>
-			<real>1070</real>
+			<real>1070.0</real>
 			<key>ypos</key>
-			<real>310</real>
+			<real>310.0</real>
 		</dict>
 		<key>D8BDC8B4-7C81-40EC-9A4A-646DE02EE3D6</key>
 		<dict>
 			<key>xpos</key>
-			<real>2470</real>
+			<real>2470.0</real>
 			<key>ypos</key>
-			<real>1090</real>
+			<real>1090.0</real>
 		</dict>
 		<key>DFB4D9F9-1E8C-496C-9FFD-12679D2D498A</key>
 		<dict>
 			<key>note</key>
 			<string>Wait to clear clipboard if unchanged</string>
 			<key>xpos</key>
-			<real>2310</real>
+			<real>2310.0</real>
 			<key>ypos</key>
-			<real>1060</real>
+			<real>1060.0</real>
 		</dict>
 		<key>E0E63366-C846-4EB6-8625-9CCDD1637737</key>
 		<dict>
 			<key>xpos</key>
-			<real>865</real>
+			<real>865.0</real>
 			<key>ypos</key>
-			<real>310</real>
+			<real>310.0</real>
 		</dict>
 		<key>E227802D-3D56-41B9-BB5B-8A7B7AB45631</key>
 		<dict>
 			<key>xpos</key>
-			<real>1640</real>
+			<real>1640.0</real>
 			<key>ypos</key>
-			<real>645</real>
+			<real>645.0</real>
 		</dict>
 		<key>E66CAF69-6370-4360-A348-8F43397D64B1</key>
 		<dict>
 			<key>xpos</key>
-			<real>2010</real>
+			<real>2010.0</real>
 			<key>ypos</key>
-			<real>630</real>
+			<real>630.0</real>
 		</dict>
 		<key>EBEF9CF8-D92F-4323-B607-03923C841506</key>
 		<dict>
 			<key>xpos</key>
-			<real>1640</real>
+			<real>1640.0</real>
 			<key>ypos</key>
-			<real>460</real>
+			<real>460.0</real>
 		</dict>
 		<key>ECAFD427-940F-4963-801C-B096E45A9695</key>
 		<dict>
 			<key>note</key>
 			<string>Disable auto_refresh</string>
 			<key>xpos</key>
-			<real>715</real>
+			<real>715.0</real>
 			<key>ypos</key>
-			<real>210</real>
+			<real>210.0</real>
 		</dict>
 		<key>EEBA1F86-6CE0-4427-892D-A52955A980D5</key>
 		<dict>
 			<key>xpos</key>
-			<real>1110</real>
+			<real>1110.0</real>
 			<key>ypos</key>
-			<real>440</real>
+			<real>440.0</real>
 		</dict>
 		<key>F05CEA7B-4FBA-430E-8B03-B94BB32A68DD</key>
 		<dict>
 			<key>xpos</key>
-			<real>1425</real>
+			<real>1425.0</real>
 			<key>ypos</key>
-			<real>460</real>
+			<real>460.0</real>
 		</dict>
 		<key>F98E7ED2-C99B-4242-A40F-8F2EFA9FE6B8</key>
 		<dict>
 			<key>xpos</key>
-			<real>2935</real>
+			<real>2935.0</real>
 			<key>ypos</key>
-			<real>630</real>
+			<real>630.0</real>
 		</dict>
 		<key>FB417B7C-1060-4A1C-909B-76456CC37254</key>
 		<dict>
 			<key>xpos</key>
-			<real>2220</real>
+			<real>2220.0</real>
 			<key>ypos</key>
-			<real>1090</real>
+			<real>1090.0</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -3601,7 +3601,7 @@ To report a problem, run `!1pdiagnostic`.</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>25.1</string>
+	<string>25.1.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/acourtneybrown/1password-workflow</string>
 </dict>
